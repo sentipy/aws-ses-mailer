@@ -1,1 +1,6 @@
-This file was created by IntelliJ IDEA 12.1.6 for binding GitHub repository
+Just a wrapper for AWS SES so one must not write all that code in every project.
+
+Usage is pretty simple.
+1) create instance of AwsSesMailer with either InsputStream or MailerCredentials.
+2) call sendMail.
+3) profit!
